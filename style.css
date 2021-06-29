@@ -1,0 +1,68 @@
+body {
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    color: #fef2bf;
+
+    background-color: #000;
+    background-image: url("https://cdn2.unrealengine.com/egs-starwarsbattlefrontiicelebrationedition-dice-g1a-01-1920x1080-87971829e831.jpg");
+    background-size: cover;
+    background-position-x: center;
+    background-repeat: no-repeat;
+}
+
+h4 {
+    color: yellow;
+}
+
+#hero-title {
+    font-size: 3rem;
+    line-height: 5rem;
+    margin: 25rem 5% 2%;
+}
+
+.container {
+    display: block;
+    min-width: 50%;
+    margin: auto;
+}
+
+.info-card {
+    font-size: 1rem;
+    background-color: rgb(0, 0, 0, 0.4);
+
+    width: 200px;
+    height: 200px;
+    margin: 25px;
+    border: 10px dashed #fef2bf;
+    border-radius: 20%;
+    padding-top: 2.5rem;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.random-button {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1rem;
+    background-color: rgb(0, 0, 0, 0.4);
+
+    width: 200px;
+    height: 80px;
+    margin: 1rem auto auto;
+    border: 10px solid black;
+    border-radius: 20%;
+    padding-top: 3rem;
+}
+
+.pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+}
+
+@media (max-width: 1200px) {
+    body {
+        background-size: 250vh;
+    }
+}
+
+
+
